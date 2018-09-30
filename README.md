@@ -1,19 +1,34 @@
-# Glossary CLI
+# glossld 💄
+
+Glossary Linked Data CLI to create a glossary of terms (a.k.a. vocabulary or dictionary) parsing Markdown files following Linked Data standards.
+
+🏗️ Under construction 🏗️
+
+## Install
+
+## Config
+
+```bash
+mv config.sample.yml config.yml
+```
 
 ## Commands
 
-### `help`
-### `generate`
-### `serve`
+### `add`
 ### `build`
+### `generate`
+### `help`
+### `parse`
+### `remove`
+### `serve`
 ### `watch`
 
 ## Markdown formatting
 
-### `markdown-to-json`
+### `parse --format='json-ld'`
 
-Convert a Glossary written in Markdown to JSON format.
+Convert a Linked Data Glossary written in Markdown to JSON-LD format.
 
-### `markdown-to-rdf`
+### `parse --format='rdf'`
 
-Convert a Glossary written in Markdown to RDF format.
+Convert a Linked Data Glossary written in Markdown to RDF format.

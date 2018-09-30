@@ -1,0 +1,7 @@
+base: ''
+context: ''
+language: 'en'
+vocab: ''
+---
+src: 'terms'
+dist: 'dist'

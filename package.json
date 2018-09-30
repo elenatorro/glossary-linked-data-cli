@@ -1,17 +1,38 @@
 {
-  "name": "glossary-ld-cli",
+  "name": "glossld",
   "version": "1.0.0",
-  "description": "CLI to generate Glossary content",
+  "description": "Glossary Linked Data CLI to create a glossary of terms (a.k.a. vocabulary or dictionary) parsing Markdown files following Linked Data standards",
   "main": "./src/index.js",
+  "keywords": [
+    "Dictionary",
+    "Glossary",
+    "JSON-LD",
+    "JSON",
+    "Linked Data",
+    "Markdown",
+    "Terminology",
+    "Terms",
+    "Vocabulary"
+  ],
   "directories": {
     "test": "tests"
   },
   "scripts": {
     "test": "test"
   },
-  "author": "",
+  "author": "Elena Torro <elenatorro@protonmail.com>",
+  "contributors": [],
   "license": "MIT",
   "bin": {
     "glossld": "./bin/glossld"
+  },
+  "dependencies": {
+    "jsonld": "^1.1.0"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "markdown": "^0.5.0",
+    "meow": "^5.0.0",
+    "yaml": "^1.0.0"
   }
 }
