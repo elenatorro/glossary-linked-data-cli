@@ -7,4 +7,5 @@
  *
  */
 
+const Gloss = require('Gloss');
 console.log('Hello, world!');
