@@ -1,0 +1,17 @@
+{
+  "name": "glossary-ld-cli",
+  "version": "1.0.0",
+  "description": "CLI to generate Glossary content",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "glossld": "./bin/glossld"
+  }
+}
